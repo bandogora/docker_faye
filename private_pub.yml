@@ -1,0 +1,10 @@
+development:
+  server: "https://faye:9292/faye/faye"
+  secret_token: "secret"
+test:
+  server: "https://faye:9292/faye/faye"
+  secret_token: "secret"
+production:
+  server: "https://faye:9292/faye/faye"
+  secret_token: "secret"
+  signature_expiration: 3600 # one hour
